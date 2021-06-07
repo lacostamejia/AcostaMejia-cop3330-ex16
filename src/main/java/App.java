@@ -19,14 +19,16 @@ public class App {
 
         //These are variables that are going to be using
         int age;
-        int q;
 
         System.out.print("What is your age? ");
         age = in.nextInt();
 
         if(age >= 16)
         {
-            q = 1;
+            System.out.println("You're old enough to legally drive.");
+        }
+        else{
+            System.out.println("You're not old enough to legally drive.");
         }
 
 
